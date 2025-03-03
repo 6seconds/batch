@@ -1,6 +1,4 @@
 @echo off
-setlocal enabledelayedexpansion
-
 netsh interface ip set dns name="Ethernet" source=static addr=1.1.1.3
 netsh interface ip add dns name="Ethernet" addr=1.0.0.3 index=2
 netsh interface ipv6 set dns name="Ethernet" source=static addr=2606:4700:4700::1113
