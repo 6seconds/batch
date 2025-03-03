@@ -10,6 +10,4 @@ netsh interface ipv6 set dns name="Wi-Fi" source=static addr=2606:4700:4700::111
 netsh interface ipv6 add dns name="Wi-Fi" addr=2606:4700:4700::1003 index=2
 
 netsh advfirewall firewall delete rule name="Force SafeSearch"
-
-ipconfig /flushdns
 exit
